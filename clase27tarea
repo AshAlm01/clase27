@@ -1,0 +1,29 @@
+
+opciones = {
+    "izquierda":"te encontraste con un dragon",
+    "derecha":"encontraste un tesoro",
+    "adelante":"caiste en un pozo"
+
+}
+
+opciones = {
+    "Izquierda":"te encontraste con un dragon",
+    "Derecha":"encontraste un tesoro",
+    "Adelante":"caiste en un pozo"
+}
+
+opciones = {
+    "IZQUIERDA":"te encontraste con un dragon",
+    "DERECHA":"encontraste un tesoro",
+    "ADELANTE":"caiste en un pozo"
+}
+
+#solicitamos la opcion de usuario 
+eleccion = input ("estas en un cruze. ¿Quieres ir a la derecha, izquierda o adelante?: ")
+
+if eleccion in opciones:
+    print("respuesta: ", opciones [eleccion])
+else:
+    print ("opcion equivocada")
+
+
